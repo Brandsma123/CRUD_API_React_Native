@@ -1,0 +1,4 @@
+const INCREMENT = 0;
+const DECREMENT = 1;
+
+export {INCREMENT,DECREMENT}
