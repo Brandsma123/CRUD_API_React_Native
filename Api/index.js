@@ -69,7 +69,7 @@ const CallingApi = () => {
     }
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Calling API</Text>
+            <Text style={styles.text}>Calling API vanila</Text>
             <Button title="Get Data" onPress={getData}/>
             <Image source={{uri: dataUser.avatar}} style={styles.avatar}/>
             <Text>{`${dataUser.first_name} ${dataUser.last_name}`}</Text>
