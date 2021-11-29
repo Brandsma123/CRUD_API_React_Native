@@ -15,29 +15,6 @@ const CallingApi = () => {
       name: '',
       job: ''
   })
-    useEffect(() => {
-        // call api with get
-        // fetch('https://jsonplaceholder.typicode.com/todos/1')
-        //     .then(response => response.json())
-        //     .then(json => console.log(json))
-
-        // // call api with post
-        // const dataForAPi = 
-        //     {
-        //         name: 'morpheus',
-        //         job: 'leader'
-        //     }
-        
-        // fetch('https://reqres.in/api/users', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(dataForAPi)
-        // })
-        // .then(response => response.json())
-        // .then(json => console.log(json))
-    }, [])
 
     const getData = () => {
         fetch('https://reqres.in/api/users/2')

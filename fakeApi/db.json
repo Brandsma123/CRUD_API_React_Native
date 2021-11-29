@@ -1,24 +1,16 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Brandsma",
+      "email": "brandsma@gmail.com",
+      "bidang": "Android Developer",
+      "id": 1
     },
     {
-      "title": "Fake API",
-      "author": "Git Hub server",
+      "name": "Rini",
+      "email": "rini@gmail.com",
+      "bidang": "Site Engineer",
       "id": 2
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
